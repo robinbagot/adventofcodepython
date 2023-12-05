@@ -63,7 +63,7 @@ def parse_row(line):
             if r in cards:
                 cards[r] +=  cards[card_num]
             else:
-                cards[r] = 1
+                cards[r] = cards[card_num]
     
     return cards[card_num]
 
